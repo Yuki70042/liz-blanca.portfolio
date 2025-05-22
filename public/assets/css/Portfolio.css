@@ -34,7 +34,7 @@
 }
 
 
-.first-project {
+.first-project, .third-project {
     display: flex;
     padding: 2%;
     width: 100%;
@@ -43,7 +43,7 @@
 
 }
 
-.second-project{
+.second-project, fourth-project{
     display: flex;
     padding: 2%;
     width: 100%;
@@ -52,19 +52,11 @@
 
 }
 
-.third-project{
-    display: flex;
-    padding: 2%;
-    width: 100%;
-    border-top: 5px solid rgb(104, 16, 38);
-    border-left: 5px solid rgb(104, 16, 38);
-    border-bottom: 5px solid rgb(104, 16, 38);
-
-}
 
 .first-project img, 
 .second-project img, 
-.third-project img {
+.third-project img,
+.fourth-project img{
     width: 45%;
     height: auto;
     object-fit: contain;
