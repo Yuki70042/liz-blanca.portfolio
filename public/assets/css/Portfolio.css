@@ -34,7 +34,7 @@
 }
 
 
-.first-project, .third-project {
+.first-project {
     display: flex;
     padding: 2%;
     width: 100%;
@@ -43,13 +43,30 @@
 
 }
 
-.second-project, fourth-project{
+.second-project{
     display: flex;
     padding: 2%;
     width: 100%;
     border-top: 5px solid rgb(104, 16, 38);
     border-right: 5px solid rgb(104, 16, 38);
 
+}
+
+.third-project{
+    display: flex;
+    padding: 2%;
+    width: 100%;
+    border-top: 5px solid rgb(104, 16, 38);
+    border-left: 5px solid rgb(104, 16, 38);
+}
+
+.fourth-project{
+    display: flex;
+    padding: 2%;
+    width: 100%;
+    border-top: 5px solid rgb(104, 16, 38);
+    border-right: 5px solid rgb(104, 16, 38);
+    border-bottom: 5px solid rgb(104, 16, 38);
 }
 
 
